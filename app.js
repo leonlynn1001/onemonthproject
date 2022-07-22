@@ -1,3 +1,4 @@
+
 const images = document.querySelectorAll(".main-img");
 const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
@@ -35,11 +36,10 @@ const callLater = document.querySelector(".closeBtn");
 servicebox.addEventListener("click", () => {
   modalbox.showModal();
 });
-callLater.addEventListener("click",()=>{
+callLater.addEventListener("click", () => {
   // modalbox.close() close method does not work tr, I don't know why;
   modalbox.style.display = "none";
-})
-  
+});
 
 //coffee porduct
 const card = document.querySelector(".coffee-card");

@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  
+  width: 100%;
   font-family: "Inter", sans-serif;
 }
 .logo {
@@ -67,7 +67,7 @@ svg:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 500px;
+  gap: 400px;
   background-color: #dea057;
 }
 .menu-left a {
@@ -101,8 +101,18 @@ svg:hover {
   width: 30px;
   height: 20px;
 }
+/* .menu-right .list{
+  display: none;
+} */
+/* .list li{
+  padding: 0.5em;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #92796c;
+  border-radius: 24px;
+} */
 /* main */
-main{
+main {
   background-color: #fcffe7;
   position: relative;
 }
@@ -176,50 +186,59 @@ main{
 }
 /* customer service */
 .cash {
-  margin:1em;
-  padding:1em;
+  margin: 1em;
+  padding: 1em;
   width: 100%;
   background-color: #fcffe7;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap: 20px;
   position: relative;
 }
-.cash i{
-   color:#843003;
+.cash i {
+  color: #843003;
 }
 .cash .box {
-  padding:1em;
+  padding: 1em;
   width: 300px;
   min-height: 50px;
   background-color: #f9f0f0;
-  border:none;
+  border: none;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.box .left{
-  width:10%
+.box .left {
+  width: 10%;
 }
-.box .right{
+.box .right {
   width: 90%;
 }
 /* modal box */
-.modal{
-  color:#843003;
-  padding:2em;
+.modal {
+  color: #843003;
+  padding: 1em;
   border: none;
   border-radius: 24px;
   position: absolute;
-  top:90%;
-  left:80%;
+  top: 90%;
+  left: 80%;
 }
-.modal button{
-  color:#fff;
-  padding:1em;
+.modal .info{
+  display: flex;
+  flex-direction: column;
+}
+.modal input{
+  padding: 0.3em 0.2em;
+  border: none;
+  border-bottom: 1px solid #92796c;
+  border-radius: 24px;
+}
+.modal button {
+  color: #fff;
+  padding: 0.5em;
   background-color: #92796c;
   border: none;
   border-radius: 24px;
@@ -343,6 +362,10 @@ main{
 .product {
   width: 100px;
   height: 150px;
+}
+.latest,
+.bestseller {
+  display: none;
 }
 svg {
   width: 20px;
