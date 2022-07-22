@@ -450,7 +450,7 @@ small {
   max-height: 200px;
 }
 .blog:hover{
-  transform: scale(1.5);
+  transform: scale(1.05);
 }
 /* footer */
 footer {
