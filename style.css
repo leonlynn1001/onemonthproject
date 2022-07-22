@@ -420,6 +420,7 @@ svg {
   background-color: #f8faea;
   border-radius: 10px;
   box-shadow: -2px 3px 5px #c49c9cf3;
+  transition: all 0.3s;
 }
 .blog h3,
 p,
@@ -447,6 +448,9 @@ small {
   border-radius: 10px 10px 0 0;
   width: 300px;
   max-height: 200px;
+}
+.blog:hover{
+  transform: scale(1.5);
 }
 /* footer */
 footer {
